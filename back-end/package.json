@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "back-end/dist/main.js",
 "scripts": {
-  "build": "tsc -p back-end",
+  "build": "tsc -p back-end/",
   "start": "node back-end/dist/main.js"
 },
   "author": "",
+  "engines":{
+    "node":"22.14.0"
+  },
   "license": "ISC",
   "description": "",
   "dependencies": {
