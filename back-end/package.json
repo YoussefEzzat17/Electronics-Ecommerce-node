@@ -2,14 +2,14 @@
   "name": "back-end",
   "version": "1.0.0",
   "main": "dist/main.js",
-"scripts": {
-  "build": "tsc -p",
-  "start": "node dist/main.js"
-},
+  "scripts": {
+    "build": "tsc -p",
+    "start": "node dist/main.js"
+  },
   "author": "",
-  "engines":{
-    "node":"22.14.0"
-  },
+  "engines": {
+    "node": "22.14.0"
+  },
   "license": "ISC",
   "description": "",
   "dependencies": {
@@ -27,7 +27,6 @@
     "nodemailer": "^6.10.1",
     "nodemon": "^3.1.10",
     "xlsx": "^0.18.5"
-    
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.2",
